@@ -38,8 +38,8 @@
 		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма" id="2c0abefa-4607-424b-81f6-daff22d806d5" configVersion="c50978e2757d6b499c45b83bf19bbaa600000000"/>
 		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма.Form" id="2c0abefa-4607-424b-81f6-daff22d806d5.0" configVersion="e5a3c4f0ca637445a5ee37e5944f4a1f00000000"/>
 		<Metadata name="DataProcessor.СверкаНоменклатурыСДаннымиМосбиржи" id="941e18f3-89d4-4dfc-ba6e-90fb798a60f4" configVersion="182ebb2fc2b5174e9a1cd5b86db163c300000000"/>
-		<Metadata name="DataProcessor.СверкаНоменклатурыСДаннымиМосбиржи.Form.Форма" id="128b716e-eb4a-497a-9910-c443c3c6ea59" configVersion="6ca942083f17b04f86fa73b485c03af200000000"/>
-		<Metadata name="DataProcessor.СверкаНоменклатурыСДаннымиМосбиржи.Form.Форма.Form" id="128b716e-eb4a-497a-9910-c443c3c6ea59.0" configVersion="ff2fdec1f0fb5d4fba8f98e24672448d00000000"/>
+		<Metadata name="DataProcessor.СверкаНоменклатурыСДаннымиМосбиржи.Form.Форма" id="128b716e-eb4a-497a-9910-c443c3c6ea59" configVersion="a230cc8394b3804f9780725ac0e32d4000000000"/>
+		<Metadata name="DataProcessor.СверкаНоменклатурыСДаннымиМосбиржи.Form.Форма.Form" id="128b716e-eb4a-497a-9910-c443c3c6ea59.0" configVersion="3fbeb348ad4ac64e94572a9d454fd9a500000000"/>
 		<Metadata name="Enum.КатегорииОблигаций" id="a6411957-e1e6-48b8-aeea-83fe1cf95f14" configVersion="8082b04f83ebba42bd67c4a9585888b200000000">
 			<Metadata name="Enum.КатегорииОблигаций.EnumValue.Региональная" id="3595f70f-dca6-4078-acad-b5dcc45c8fcc"/>
 			<Metadata name="Enum.КатегорииОблигаций.EnumValue.Корпоративная" id="86b9939b-c134-47ce-bcb7-00dd8adac62c"/>
