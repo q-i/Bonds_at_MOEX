@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="Catalog.Номенклатура" id="4c2d7141-fc95-4025-9398-218d353a47f0" configVersion="ac9eaf4d0aa85944aa7479fdc7e72c8d00000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.СтавкаНалогаНаКупонныйДоход" id="1324afc9-a133-46ed-b38b-c0d2ee797714"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.НаименованиеПолное" id="1f02784b-7b9f-41c1-ae45-eb8bba72a1ac"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ВалютаНоминала" id="3d11be31-6472-4e77-8284-58194e702794"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ПериодичностьВыплатыКупона" id="3edac682-47a4-4ee4-81fb-6e10d6702702"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ПервоначальнаяНоминальнаяСтоимость" id="46e513e6-59fe-4c14-8346-50d62b78ca00"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.НоминальнаяСтоимость" id="5226c5a8-51df-4be4-bb41-58bf02040f57"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ДатаПогашения" id="53898fa5-a3ec-475b-82e1-c6d0a381f1e0"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.Купоны" id="53a2cfed-c442-443f-a87c-05163003be08"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ИдентификаторРежимаТоргов" id="5f3658e2-e0ba-4d33-967f-361144daa7ca"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.Купоны.Attribute.ДатаНачалаПериода" id="67cc620e-db8d-43ff-947c-6faa5e223096"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.Погашения.Attribute.Сумма" id="7a56d3d4-461d-454e-8581-02d8f47deb1d"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ДатаНачалаТоргов" id="948f63c2-f287-4517-b690-06c484110e89"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.Категория" id="9613065f-9990-4541-97c6-72c17101f062"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.СтавкаНалогаНаПриростКапитала" id="a35492be-659b-4635-be1c-ea2577b127de"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.НомерГосРегистрации" id="a58aa495-2501-4ce1-9b99-ca1e95c08367"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.Погашения" id="ae780797-36fa-4f66-947d-a3b256875efa"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.Погашения.Attribute.ДатаПогашения" id="aee8e7da-bf99-4175-ada3-356addecd1d9"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ДляКвалифицированныхИнвесторов" id="b5a886bd-359d-4096-ac0d-86377f569bf1"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.Купоны.Attribute.Ставка" id="caed697b-1fc5-41e1-9dbe-0f29e59da4ff"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.Купоны.Attribute.ДатаВыплаты" id="d5097502-bee2-4eca-9c4a-f6a088e2eb60"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.Купоны.Attribute.Сумма" id="eaf18123-6170-482b-a60e-a847f0077344"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.СтавкаКупона" id="eee65523-d96a-4b3c-b65e-9e64bdb90beb"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ОбъемВыпуска" id="f66b6f11-be19-425c-81ac-27a434c5bc84"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="24a752a5-c570-4f82-85f4-6fa151eb3f15" configVersion="eb65e0d3f193ff469f57cb63f53cf39900000000"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="24a752a5-c570-4f82-85f4-6fa151eb3f15.0" configVersion="296b995a5f461744bba4ada8cbc895d000000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="318adfe1-f3c1-471f-bef3-3470a8425a23" configVersion="de0171fa213094418a2863d825f79f0200000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="318adfe1-f3c1-471f-bef3-3470a8425a23.0" configVersion="d9d6444efb10fe4a923687e54495cdb900000000"/>
+		<Metadata name="CommonModule.ПолучениеДанныхМосбиржиСервер" id="c4ca41d3-7979-4254-87c9-0da810792f24" configVersion="e8d9ffe5bdde0b4b99e6acd4fe58137500000000"/>
+		<Metadata name="CommonModule.ПолучениеДанныхМосбиржиСервер.Module" id="c4ca41d3-7979-4254-87c9-0da810792f24.0" configVersion="32dad7615f38fd46953ce3ce1669603700000000"/>
+		<Metadata name="Configuration.Облигации" id="27b640ba-28ca-430b-9dd6-40d80b45b8ef" configVersion="f0cdf87d4c1deb498e5d5032d266f5a900000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций" id="28f74cf6-194b-4627-a557-b23e7dc49d8a" configVersion="24bbfea52a01814fadc2015f2cd8d92500000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма" id="2c0abefa-4607-424b-81f6-daff22d806d5" configVersion="c50978e2757d6b499c45b83bf19bbaa600000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма.Form" id="2c0abefa-4607-424b-81f6-daff22d806d5.0" configVersion="e5a3c4f0ca637445a5ee37e5944f4a1f00000000"/>
+		<Metadata name="Enum.КатегорииОблигаций" id="a6411957-e1e6-48b8-aeea-83fe1cf95f14" configVersion="8082b04f83ebba42bd67c4a9585888b200000000">
+			<Metadata name="Enum.КатегорииОблигаций.EnumValue.Региональная" id="3595f70f-dca6-4078-acad-b5dcc45c8fcc"/>
+			<Metadata name="Enum.КатегорииОблигаций.EnumValue.Корпоративная" id="86b9939b-c134-47ce-bcb7-00dd8adac62c"/>
+			<Metadata name="Enum.КатегорииОблигаций.EnumValue.Муниципальная" id="a26b6951-95d0-4266-a5e6-022fb20859f0"/>
+			<Metadata name="Enum.КатегорииОблигаций.EnumValue.ОФЗ" id="c515d1f6-9e75-485a-9fac-e62328728e84"/>
+			<Metadata name="Enum.КатегорииОблигаций.EnumValue.ЦБ" id="d26154b3-303d-45e4-9f78-3dd191f88f27"/>
+			<Metadata name="Enum.КатегорииОблигаций.EnumValue.Биржевая" id="ec694726-332a-480f-9c27-b5647e778eba"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="a317a895-cc0b-4cb5-b379-f3323d799799" configVersion="0370a77d4eaa3745976f2a2a29a9887400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
