@@ -128,6 +128,7 @@
 			<Catalog>Номенклатура</Catalog>
 			<Enum>КатегорииОблигаций</Enum>
 			<DataProcessor>ВыгрузкаЗаявокНаПокупкуОблигаций</DataProcessor>
+			<DataProcessor>ПодборОблигацийПоПараметрам</DataProcessor>
 			<DataProcessor>СверкаНоменклатурыСДаннымиМосбиржи</DataProcessor>
 		</ChildObjects>
 	</Configuration>

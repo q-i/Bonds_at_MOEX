@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ПосмотретьСКД" id="43">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПосмотретьСКД</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.DataCompositionSettingsWizard</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПосмотретьСКДРасширеннаяПодсказка" id="44"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="СтраницыФормы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СтраницаРежимыТоргов" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Режимы торгов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница режимы торгов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаРежимыТорговРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Table name="СписокИдРежимовТоргов" id="5">
+							<Representation>List</Representation>
+							<Header>false</Header>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<DataPath>СписокИдРежимовТоргов</DataPath>
+							<RowPictureDataPath>СписокИдРежимовТоргов.Picture</RowPictureDataPath>
+							<ContextMenu name="СписокИдРежимовТорговКонтекстноеМеню" id="6"/>
+							<AutoCommandBar name="СписокИдРежимовТорговКоманднаяПанель" id="7">
+								<ChildItems>
+									<Button name="ВыполнитьЗаполнениеСпискаИдРежимовТоргов" id="24">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Command.ВыполнитьЗаполнениеСпискаИдРежимовТоргов</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.Refresh</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ВыполнитьЗаполнениеСпискаИдРежимовТорговРасширеннаяПодсказка" id="25"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокИдРежимовТорговРасширеннаяПодсказка" id="8"/>
+							<SearchStringAddition name="СписокИдРежимовТорговСтрокаПоиска" id="9">
+								<AdditionSource>
+									<Item>СписокИдРежимовТоргов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокИдРежимовТорговСтрокаПоискаКонтекстноеМеню" id="10"/>
+								<ExtendedTooltip name="СписокИдРежимовТорговСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокИдРежимовТорговСостояниеПросмотра" id="12">
+								<AdditionSource>
+									<Item>СписокИдРежимовТоргов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокИдРежимовТорговСостояниеПросмотраКонтекстноеМеню" id="13"/>
+								<ExtendedTooltip name="СписокИдРежимовТорговСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокИдРежимовТорговУправлениеПоиском" id="15">
+								<AdditionSource>
+									<Item>СписокИдРежимовТоргов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокИдРежимовТорговУправлениеПоискомКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="СписокИдРежимовТорговУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<CheckBoxField name="СписокИдРежимовТорговПометка" id="21">
+									<DataPath>СписокИдРежимовТоргов.Check</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СписокИдРежимовТорговПометкаКонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="СписокИдРежимовТорговПометкаРасширеннаяПодсказка" id="23"/>
+								</CheckBoxField>
+								<InputField name="СписокИдРежимовТорговЗначение" id="18">
+									<DataPath>СписокИдРежимовТоргов.Value</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокИдРежимовТорговЗначениеКонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="СписокИдРежимовТорговЗначениеРасширеннаяПодсказка" id="20"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаДанные" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница данные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаДанныеРасширеннаяПодсказка" id="29"/>
+				</Page>
+				<Page name="СтраницаРезультат" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница результат</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаРезультатРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<InputField name="КомпоновщикНастроекНастройкиОтбор" id="34">
+							<DataPath>КомпоновщикНастроек.Settings.Filter</DataPath>
+							<ContextMenu name="КомпоновщикНастроекНастройкиОтборКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="КомпоновщикНастроекНастройкиВыбор" id="40">
+							<DataPath>КомпоновщикНастроек.Settings.Selection</DataPath>
+							<ContextMenu name="КомпоновщикНастроекНастройкиВыборКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="КомпоновщикНастроекНастройкиПорядок" id="37">
+							<DataPath>КомпоновщикНастроек.Settings.Order</DataPath>
+							<ContextMenu name="КомпоновщикНастроекНастройкиПорядокКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="КомпоновщикНастроекНастройкиПорядокРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<Button name="НайтиПоПараметрам" id="45">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.НайтиПоПараметрам</CommandName>
+							<ExtendedTooltip name="НайтиПоПараметрамРасширеннаяПодсказка" id="46"/>
+						</Button>
+						<LabelDecoration name="ДекорацияРезультатНеСформирован" id="47">
+							<TextColor>style:FieldSelectionBackColor</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В поле Отбор укажите критерии отбора облигаций.
+В поле Выбор укажите какие поля нужно выводить.
+В поле Порядок задайте сортировку.
+После этого нажмите кнопку "Найти по параметрам", чтобы получить таблицу с перечнем подходящих облигаций.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияРезультатНеСформированКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ДекорацияРезультатНеСформированРасширеннаяПодсказка" id="49"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<CommandBar name="ГруппаКоманднаяПанель" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа командная панель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа командная панель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<Button name="ПолучитьДанные" id="26">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.ПолучитьДанные</CommandName>
+					<ExtendedTooltip name="ПолучитьДанныеРасширеннаяПодсказка" id="27"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПодборОблигацийПоПараметрам</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СписокИдРежимовТоргов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список ид режимов торгов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Save>
+				<Field>СписокИдРежимовТоргов</Field>
+			</Save>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+		<Attribute name="КомпоновщикНастроек" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компоновщик настроек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>dcsset:SettingsComposer</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресСКД" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес СКД</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресТаблицыДанных" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес таблицы данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьЗаполнениеСпискаИдРежимовТоргов" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить заполнение списка ид режимов торгов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить заполнение списка ид режимов торгов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗаполнениеСпискаИдРежимовТоргов</Action>
+		</Command>
+		<Command name="ПолучитьДанные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьДанные</Action>
+		</Command>
+		<Command name="ПосмотретьСКД" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Посмотреть СКД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Посмотреть СКД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПосмотретьСКД</Action>
+		</Command>
+		<Command name="НайтиПоПараметрам" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти по параметрам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти по параметрам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НайтиПоПараметрам</Action>
+		</Command>
+	</Commands>
+</Form>
