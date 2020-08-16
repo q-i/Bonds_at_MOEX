@@ -97,6 +97,12 @@
 							<ContextMenu name="КолвоДнейДляАнализаТорговКонтекстноеМеню" id="200"/>
 							<ExtendedTooltip name="КолвоДнейДляАнализаТорговРасширеннаяПодсказка" id="201"/>
 						</InputField>
+						<CheckBoxField name="ИтеративныйПодгонПодПлановуюДоходность" id="238">
+							<DataPath>ИтеративныйПодгонПодПлановуюДоходность</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИтеративныйПодгонПодПлановуюДоходностьКонтекстноеМеню" id="239"/>
+							<ExtendedTooltip name="ИтеративныйПодгонПодПлановуюДоходностьРасширеннаяПодсказка" id="240"/>
+						</CheckBoxField>
 						<Table name="ПлановыеДоходности" id="111">
 							<Representation>List</Representation>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -392,9 +398,11 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<BackColor>web:MintCream</BackColor>
 											<ContextMenu name="ДанныеЦенаЗаявкиКонтекстноеМеню" id="131"/>
 											<ExtendedTooltip name="ДанныеЦенаЗаявкиРасширеннаяПодсказка" id="132"/>
+											<Events>
+												<Event name="OnChange">ДанныеЦенаЗаявкиПриИзменении</Event>
+											</Events>
 										</InputField>
 										<InputField name="ДанныеКоличествоЗаявки" id="196">
 											<DataPath>Данные.КоличествоЗаявки</DataPath>
@@ -405,9 +413,23 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<BackColor>web:MintCream</BackColor>
 											<ContextMenu name="ДанныеКоличествоЗаявкиКонтекстноеМеню" id="197"/>
 											<ExtendedTooltip name="ДанныеКоличествоЗаявкиРасширеннаяПодсказка" id="198"/>
+										</InputField>
+										<InputField name="ДанныеПлановаяДоходность" id="232">
+											<DataPath>Данные.ПлановаяДоходность</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДанныеПлановаяДоходностьКонтекстноеМеню" id="233"/>
+											<ExtendedTooltip name="ДанныеПлановаяДоходностьРасширеннаяПодсказка" id="234"/>
+											<Events>
+												<Event name="OnChange">ДанныеПлановаяДоходностьПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="ДанныеРасчетнаяДоходность" id="235">
+											<DataPath>Данные.РасчетнаяДоходность</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДанныеРасчетнаяДоходностьКонтекстноеМеню" id="236"/>
+											<ExtendedTooltip name="ДанныеРасчетнаяДоходностьРасширеннаяПодсказка" id="237"/>
 										</InputField>
 									</ChildItems>
 								</ColumnGroup>
@@ -1232,6 +1254,38 @@
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
+				<Column name="ПлановаяДоходность" id="31">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Плановая доходность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="РасчетнаяДоходность" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчетная доходность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="КомиссияБрокераПроцент" id="4">
@@ -1508,6 +1562,20 @@
 			</Type>
 			<Save>
 				<Field>КолвоДнейДляАнализаТоргов</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИтеративныйПодгонПодПлановуюДоходность" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Итеративный подгон под плановую доходность</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ИтеративныйПодгонПодПлановуюДоходность</Field>
 			</Save>
 		</Attribute>
 	</Attributes>
