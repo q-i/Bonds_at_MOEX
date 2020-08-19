@@ -35,8 +35,8 @@
 		<Metadata name="CommonModule.ПолучениеДанныхМосбиржиСервер.Module" id="c4ca41d3-7979-4254-87c9-0da810792f24.0" configVersion="18d790a5158b5e419471f555ec07ef6c00000000"/>
 		<Metadata name="Configuration.Облигации" id="27b640ba-28ca-430b-9dd6-40d80b45b8ef" configVersion="d0c7008d6cf49f4885114e5408f4ad0f00000000"/>
 		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций" id="28f74cf6-194b-4627-a557-b23e7dc49d8a" configVersion="24bbfea52a01814fadc2015f2cd8d92500000000"/>
-		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма" id="2c0abefa-4607-424b-81f6-daff22d806d5" configVersion="3f67849452510b429758cebf5f5d6af400000000"/>
-		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма.Form" id="2c0abefa-4607-424b-81f6-daff22d806d5.0" configVersion="5f316154189bd74f83d51490252b036600000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма" id="2c0abefa-4607-424b-81f6-daff22d806d5" configVersion="aec3543ca1f8c84fb858c04d537d474a00000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма.Form" id="2c0abefa-4607-424b-81f6-daff22d806d5.0" configVersion="6ab152149d0ae6498c436fa947f54da500000000"/>
 		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам" id="95c739b3-a144-4fd3-9ee1-95e1e852ade4" configVersion="24e8a3e70f1b4044abcdf9085ce3327700000000"/>
 		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам.Form.Форма" id="7bb341e5-fca9-4df5-873e-c67010809072" configVersion="49aeea55bcbf8743853c9cb78e9b442a00000000"/>
 		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам.Form.Форма.Form" id="7bb341e5-fca9-4df5-873e-c67010809072.0" configVersion="d1ddb9f9ea729545a72befd16fdd048a00000000"/>
