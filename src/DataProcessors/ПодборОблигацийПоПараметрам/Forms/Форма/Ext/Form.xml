@@ -243,6 +243,11 @@
 			<Type>
 				<v8:Type>dcsset:SettingsComposer</v8:Type>
 			</Type>
+			<Save>
+				<Field>КомпоновщикНастроек.Settings.Selection</Field>
+				<Field>КомпоновщикНастроек.Settings.Order</Field>
+				<Field>КомпоновщикНастроек.Settings.Filter</Field>
+			</Save>
 		</Attribute>
 		<Attribute name="АдресСКД" id="4">
 			<Title>
