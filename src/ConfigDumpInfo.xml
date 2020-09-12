@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="Catalog.Номенклатура" id="4c2d7141-fc95-4025-9398-218d353a47f0" configVersion="c42e3da6fc843a46bb969dec328e426000000000">
+		<Metadata name="Catalog.Номенклатура" id="4c2d7141-fc95-4025-9398-218d353a47f0" configVersion="63e08ac099f42b419507b1cdfa0e097f00000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.СтавкаНалогаНаКупонныйДоход" id="1324afc9-a133-46ed-b38b-c0d2ee797714"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.НаименованиеПолное" id="1f02784b-7b9f-41c1-ae45-eb8bba72a1ac"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ВалютаНоминала" id="3d11be31-6472-4e77-8284-58194e702794"/>
@@ -28,15 +28,15 @@
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="24a752a5-c570-4f82-85f4-6fa151eb3f15" configVersion="ee8526a89635854e9bf0a568f3e4202900000000"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="24a752a5-c570-4f82-85f4-6fa151eb3f15.0" configVersion="e1030c1400d41449be1412cff81ea21d00000000"/>
-		<Metadata name="Catalog.Номенклатура.ObjectModule" id="4c2d7141-fc95-4025-9398-218d353a47f0.0" configVersion="7c25486f997f424084700171a28501f900000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="318adfe1-f3c1-471f-bef3-3470a8425a23" configVersion="d2fe6db1968d0b49976d116fcc25d9fc00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="318adfe1-f3c1-471f-bef3-3470a8425a23.0" configVersion="bfa6f1b614d18141b3d799da8357ef5900000000"/>
+		<Metadata name="Catalog.Номенклатура.ObjectModule" id="4c2d7141-fc95-4025-9398-218d353a47f0.0" configVersion="9d90960798e01f459c152f0c6dc89b6d00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="318adfe1-f3c1-471f-bef3-3470a8425a23" configVersion="0a268ba88ec1d34e95c81f6a5dfb661a00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="318adfe1-f3c1-471f-bef3-3470a8425a23.0" configVersion="d61040244706824ba39736d365ecf5df00000000"/>
 		<Metadata name="CommonModule.ПолучениеДанныхМосбиржиСервер" id="c4ca41d3-7979-4254-87c9-0da810792f24" configVersion="a7d0ba9b15dd6e49813d39bdcb0c5f0600000000"/>
 		<Metadata name="CommonModule.ПолучениеДанныхМосбиржиСервер.Module" id="c4ca41d3-7979-4254-87c9-0da810792f24.0" configVersion="18d790a5158b5e419471f555ec07ef6c00000000"/>
 		<Metadata name="Configuration.Облигации" id="27b640ba-28ca-430b-9dd6-40d80b45b8ef" configVersion="d0c7008d6cf49f4885114e5408f4ad0f00000000"/>
 		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций" id="28f74cf6-194b-4627-a557-b23e7dc49d8a" configVersion="24bbfea52a01814fadc2015f2cd8d92500000000"/>
-		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма" id="2c0abefa-4607-424b-81f6-daff22d806d5" configVersion="64e31c3bd5f1d642846e758c0fcd781c00000000"/>
-		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма.Form" id="2c0abefa-4607-424b-81f6-daff22d806d5.0" configVersion="6fc4e573651731489dd542c6ffab7c1200000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма" id="2c0abefa-4607-424b-81f6-daff22d806d5" configVersion="91aaad04eaddd349ac7f43b248eb561700000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма.Form" id="2c0abefa-4607-424b-81f6-daff22d806d5.0" configVersion="910cf8b27848ca4893bc4784a8ec98d300000000"/>
 		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам" id="95c739b3-a144-4fd3-9ee1-95e1e852ade4" configVersion="24e8a3e70f1b4044abcdf9085ce3327700000000"/>
 		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам.Form.Форма" id="7bb341e5-fca9-4df5-873e-c67010809072" configVersion="c030060cee39234ba4bd7e54244c830700000000"/>
 		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам.Form.Форма.Form" id="7bb341e5-fca9-4df5-873e-c67010809072.0" configVersion="1a3c01b9a05eac4382c501d3d87dea6400000000"/>
