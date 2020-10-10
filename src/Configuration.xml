@@ -130,6 +130,7 @@
 			<DataProcessor>ВыгрузкаЗаявокНаПокупкуОблигаций</DataProcessor>
 			<DataProcessor>ПодборОблигацийПоПараметрам</DataProcessor>
 			<DataProcessor>СверкаНоменклатурыСДаннымиМосбиржи</DataProcessor>
+			<InformationRegister>Надбавки</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
