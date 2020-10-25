@@ -317,7 +317,15 @@
 							<DataPath>Данные</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ДанныеКонтекстноеМеню" id="33"/>
-							<AutoCommandBar name="ДанныеКоманднаяПанель" id="34"/>
+							<AutoCommandBar name="ДанныеКоманднаяПанель" id="34">
+								<ChildItems>
+									<Button name="ДанныеИзменитьСуммуЛимитУВыделенныхСтрок" id="255">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ИзменитьСуммуЛимитУВыделенныхСтрок</CommandName>
+										<ExtendedTooltip name="ДанныеИзменитьСуммуЛимитУВыделенныхСтрокРасширеннаяПодсказка" id="256"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
 							<ExtendedTooltip name="ДанныеРасширеннаяПодсказка" id="35"/>
 							<SearchStringAddition name="ДанныеСтрокаПоиска" id="36">
 								<AdditionSource>
@@ -1744,6 +1752,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПересчитатьСуммыИКоличестваЗаявок</Action>
+		</Command>
+		<Command name="ИзменитьСуммуЛимитУВыделенныхСтрок" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить сумму лимит у выделенных строк</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить сумму лимит у выделенных строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьСуммуЛимитУВыделенныхСтрок</Action>
 		</Command>
 	</Commands>
 </Form>
