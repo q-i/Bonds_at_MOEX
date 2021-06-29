@@ -39,8 +39,8 @@
 		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма" id="2c0abefa-4607-424b-81f6-daff22d806d5" configVersion="b7ded6e9db5e4541ba3c16e05e9ec38300000000"/>
 		<Metadata name="DataProcessor.ВыгрузкаЗаявокНаПокупкуОблигаций.Form.Форма.Form" id="2c0abefa-4607-424b-81f6-daff22d806d5.0" configVersion="82f51f97a031a74bb61dc17e9934e9de00000000"/>
 		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам" id="95c739b3-a144-4fd3-9ee1-95e1e852ade4" configVersion="24e8a3e70f1b4044abcdf9085ce3327700000000"/>
-		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам.Form.Форма" id="7bb341e5-fca9-4df5-873e-c67010809072" configVersion="0e40fd1d1667c34f848a761e88dc397b00000000"/>
-		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам.Form.Форма.Form" id="7bb341e5-fca9-4df5-873e-c67010809072.0" configVersion="25e1d65bc215924aa74ef3ff014a9e8800000000"/>
+		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам.Form.Форма" id="7bb341e5-fca9-4df5-873e-c67010809072" configVersion="b72444b6ab404841a06943321db594f100000000"/>
+		<Metadata name="DataProcessor.ПодборОблигацийПоПараметрам.Form.Форма.Form" id="7bb341e5-fca9-4df5-873e-c67010809072.0" configVersion="140249a134ec7349aa98441045428ceb00000000"/>
 		<Metadata name="DataProcessor.СверкаНоменклатурыСДаннымиМосбиржи" id="941e18f3-89d4-4dfc-ba6e-90fb798a60f4" configVersion="182ebb2fc2b5174e9a1cd5b86db163c300000000"/>
 		<Metadata name="DataProcessor.СверкаНоменклатурыСДаннымиМосбиржи.Form.Форма" id="128b716e-eb4a-497a-9910-c443c3c6ea59" configVersion="3c10a7eb97f6de43aff790c8986cdc0a00000000"/>
 		<Metadata name="DataProcessor.СверкаНоменклатурыСДаннымиМосбиржи.Form.Форма.Form" id="128b716e-eb4a-497a-9910-c443c3c6ea59.0" configVersion="81f1308970a0bb4cb00978eb91c9adff00000000"/>
