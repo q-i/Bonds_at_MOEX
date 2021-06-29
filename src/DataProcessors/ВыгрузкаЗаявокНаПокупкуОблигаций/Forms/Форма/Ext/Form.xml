@@ -221,43 +221,25 @@
 							</ChoiceList>
 							<ContextMenu name="ВидЗаявкиКонтекстноеМеню" id="186"/>
 							<ExtendedTooltip name="ВидЗаявкиРасширеннаяПодсказка" id="187"/>
-						</RadioButtonField>
-						<InputField name="СуммаЛимитНаОднуБумагу" id="191">
-							<DataPath>СуммаЛимитНаОднуБумагу</DataPath>
-							<ContextMenu name="СуммаЛимитНаОднуБумагуКонтекстноеМеню" id="192"/>
-							<ExtendedTooltip name="СуммаЛимитНаОднуБумагуРасширеннаяПодсказка" id="193"/>
 							<Events>
-								<Event name="OnChange">СуммаЛимитНаОднуБумагуПриИзменении</Event>
+								<Event name="OnChange">ВидЗаявкиПриИзменении</Event>
 							</Events>
-						</InputField>
-						<InputField name="Счет" id="155">
-							<DataPath>Счет</DataPath>
-							<AutoMarkIncomplete>true</AutoMarkIncomplete>
-							<ContextMenu name="СчетКонтекстноеМеню" id="156"/>
-							<ExtendedTooltip name="СчетРасширеннаяПодсказка" id="157"/>
-						</InputField>
-						<InputField name="КодКлиента" id="158">
-							<DataPath>КодКлиента</DataPath>
-							<AutoMarkIncomplete>true</AutoMarkIncomplete>
-							<ContextMenu name="КодКлиентаКонтекстноеМеню" id="159"/>
-							<ExtendedTooltip name="КодКлиентаРасширеннаяПодсказка" id="160"/>
-						</InputField>
-						<UsualGroup name="ГруппаСпредОтступ" id="177">
+						</RadioButtonField>
+						<UsualGroup name="ГруппаПараметрыТейкПрофит" id="177">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа спред отступ</v8:content>
+									<v8:content>Параметры тейк-профит</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа спред отступ</v8:content>
+									<v8:content>Группа параметры тейк профит</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаСпредОтступРасширеннаяПодсказка" id="178"/>
+							<ExtendedTooltip name="ГруппаПараметрыТейкПрофитРасширеннаяПодсказка" id="178"/>
 							<ChildItems>
 								<InputField name="ОтступПроц" id="182">
 									<DataPath>ОтступПроц</DataPath>
@@ -271,26 +253,87 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="НачЗначTransID" id="161">
-							<DataPath>НачЗначTransID</DataPath>
-							<ContextMenu name="НачЗначTransIDКонтекстноеМеню" id="162"/>
-							<ExtendedTooltip name="НачЗначTransIDРасширеннаяПодсказка" id="163"/>
-						</InputField>
-						<InputField name="СрокДействияЗаявки" id="188">
-							<DataPath>СрокДействияЗаявки</DataPath>
-							<ContextMenu name="СрокДействияЗаявкиКонтекстноеМеню" id="189"/>
-							<ExtendedTooltip name="СрокДействияЗаявкиРасширеннаяПодсказка" id="190"/>
-						</InputField>
-						<InputField name="ИмяФайла" id="166">
-							<DataPath>ИмяФайла</DataPath>
-							<ChoiceButton>true</ChoiceButton>
-							<AutoMarkIncomplete>true</AutoMarkIncomplete>
-							<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="167"/>
-							<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="168"/>
-							<Events>
-								<Event name="StartChoice">ИмяФайлаНачалоВыбора</Event>
-							</Events>
-						</InputField>
+						<UsualGroup name="ГруппаПараметрыСтопЦенаПоДругойБумаге" id="257">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Параметры стоп-цена по другой бумаге</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа параметры стоп цена по другой бумаге</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаПараметрыСтопЦенаПоДругойБумагеРасширеннаяПодсказка" id="258"/>
+							<ChildItems>
+								<InputField name="ДельтаСтопЦены" id="259">
+									<DataPath>ДельтаСтопЦены</DataPath>
+									<ContextMenu name="ДельтаСтопЦеныКонтекстноеМеню" id="260"/>
+									<ExtendedTooltip name="ДельтаСтопЦеныРасширеннаяПодсказка" id="261"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаОсновныеПараметры" id="262">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Основные параметры</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа основные параметры</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаОсновныеПараметрыРасширеннаяПодсказка" id="263"/>
+							<ChildItems>
+								<InputField name="СуммаЛимитНаОднуБумагу" id="191">
+									<DataPath>СуммаЛимитНаОднуБумагу</DataPath>
+									<ContextMenu name="СуммаЛимитНаОднуБумагуКонтекстноеМеню" id="192"/>
+									<ExtendedTooltip name="СуммаЛимитНаОднуБумагуРасширеннаяПодсказка" id="193"/>
+									<Events>
+										<Event name="OnChange">СуммаЛимитНаОднуБумагуПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="Счет" id="155">
+									<DataPath>Счет</DataPath>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ContextMenu name="СчетКонтекстноеМеню" id="156"/>
+									<ExtendedTooltip name="СчетРасширеннаяПодсказка" id="157"/>
+								</InputField>
+								<InputField name="КодКлиента" id="158">
+									<DataPath>КодКлиента</DataPath>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ContextMenu name="КодКлиентаКонтекстноеМеню" id="159"/>
+									<ExtendedTooltip name="КодКлиентаРасширеннаяПодсказка" id="160"/>
+								</InputField>
+								<InputField name="НачЗначTransID" id="161">
+									<DataPath>НачЗначTransID</DataPath>
+									<ContextMenu name="НачЗначTransIDКонтекстноеМеню" id="162"/>
+									<ExtendedTooltip name="НачЗначTransIDРасширеннаяПодсказка" id="163"/>
+								</InputField>
+								<InputField name="СрокДействияЗаявки" id="188">
+									<DataPath>СрокДействияЗаявки</DataPath>
+									<ContextMenu name="СрокДействияЗаявкиКонтекстноеМеню" id="189"/>
+									<ExtendedTooltip name="СрокДействияЗаявкиРасширеннаяПодсказка" id="190"/>
+								</InputField>
+								<InputField name="ИмяФайла" id="166">
+									<DataPath>ИмяФайла</DataPath>
+									<ChoiceButton>true</ChoiceButton>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="167"/>
+									<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="168"/>
+									<Events>
+										<Event name="StartChoice">ИмяФайлаНачалоВыбора</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаРезультат" id="30">
@@ -1704,6 +1747,25 @@
 			</Type>
 			<Save>
 				<Field>ПовышеннаяДлительностьДней</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ДельтаСтопЦены" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дельта стоп-цены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>ДельтаСтопЦены</Field>
 			</Save>
 		</Attribute>
 	</Attributes>
